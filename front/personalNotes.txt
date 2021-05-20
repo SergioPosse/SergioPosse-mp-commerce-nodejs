@@ -1,0 +1,6 @@
+error bigint o cosas asi JSON at position 0 era por no parsear bien las respuestas
+usar JSON.parse o JSON.stringify segun sea el caso
+
+error con los headers de la request del front usando axios, no me reconocia los headers porque
+le pasaba un body undefined, tuve que pasar un body vacio {} ya que es una post request
+no probe cambiando a get para no romper pero teoricamente funcionaria
